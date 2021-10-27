@@ -12,10 +12,10 @@ namespace Library
         private List<Node> children = new List<Node>();
         private Person person;
 
-        public int Number {
+        public Person Person {
             get
             {
-                return this.number;
+                return this.person;
             }
         }
 
@@ -26,9 +26,8 @@ namespace Library
             }
         }
 
-        public Node(int number, Person person)
+        public Node(Person person)
         {
-            this.number = number;
             this.person = person;
         }
 

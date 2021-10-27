@@ -16,14 +16,14 @@ namespace Program
             Person Pablo = new Person ("Pablo", 34);
             Person Luffy = new Person ("Luffy", 21);
             // Creo las personas y luego las implenento a su nodo con sus respectivos hijos
-            Node n1 = new Node(1,Esteban);
-            Node n2 = new Node(2,Alfredo);
-            Node n3 = new Node(3,Tomas);
-            Node n4 = new Node(4,Gonzalo);
-            Node n5 = new Node(5,Pedro);
-            Node n6 = new Node(6,Carlos);
-            Node n7 = new Node(7,Pablo);
-            Node n8 = new Node(8,Luffy);
+            Node n1 = new Node(Esteban);
+            Node n2 = new Node(Alfredo);
+            Node n3 = new Node(Tomas);
+            Node n4 = new Node(Gonzalo);
+            Node n5 = new Node(Pedro);
+            Node n6 = new Node(Carlos);
+            Node n7 = new Node(Pablo);
+            Node n8 = new Node(Luffy);
 
             n1.AddChildren(n2);
             n1.AddChildren(n3);
